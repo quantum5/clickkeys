@@ -30,13 +30,16 @@
 )
 
 #define CLICK_KEY VK_APPS
+
 #define HOTKEY_TOGGLE 41
 #define HOTKEY_ACTIVATE 42
 #define HOTKEY_EXIT 43
 #define HOTKEY_TOGGLE_HOLD 44
+
 #define NWM_NOTIFY (WM_USER + 42)
 #define NWM_TOGGLE (WM_USER + 43)
 #define NWM_TOGGLE_HOLD (WM_USER + 44)
+
 #define AWM_ENABLE_HOOK (WM_APP + 42)
 #define AWM_DISABLE_HOOK (WM_APP + 43)
 #define AWM_EXIT_HOOK (WM_APP + 44)
